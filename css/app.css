@@ -16,7 +16,7 @@ body {
     margin-left:20px; 
 }
 #header h1{
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: rgba(255,255,255,0.9);
@@ -52,23 +52,25 @@ body {
 	top: 0px;
 	position: absolute;
 	padding-bottom: 30px;
+    background-color:#66FCF1;
     
 }
 .content h2{
 	font-size: 110px;
 	padding: 10px 0px 20px 0px;
 	margin-top: 52px;
-	color: #fff;
-	color: rgba(255,255,255,0.9);
+	color: black;
+	/*color: rgba(255,255,255,0.9);*/
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+    
 }
 .content p{
 	font-size: 18px;
 	padding: 5px;
 	line-height: 24px;
-	color: #fff;
+	color: black;
 	display: inline-block;
-	background: black;
+
 	padding: 10px;
 	margin: 3px 0px;
 }
@@ -88,7 +90,7 @@ body {
 }
 .panel:target{
 	margin-left: 0%;
-	background-color: #b1e583;
+	background-color:black;
 }
 #home:target ~ #header #navigation #link-home,
 #portfolio:target ~ #header #navigation #link-portfolio,
@@ -131,12 +133,16 @@ body {
 .footnote a{
 	color: #ddd;
 }
-/*toggle*//* Important styles */
+
+/*toggle bar*/
+/* Important styles */
 #toggle {
   display: block;
   width: 28px;
   height: 30px;
   margin: 30px auto 10px;
+color: #66FCF1;
+font-family:'Oswald', sans-serif;
 }
 
 #toggle span:after,
@@ -145,6 +151,7 @@ body {
   position: absolute;
   left: 0;
   top: -9px;
+
 }
 #toggle span:after{
   top: 9px;
@@ -190,7 +197,7 @@ body {
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   text-align: center;
   border-radius: 4px;
-  background: white;
+  background:black;
   box-shadow: 0 1px 8px rgba(0,0,0,0.05);
   /* just for this demo */
   opacity: 0;
@@ -221,11 +228,15 @@ li a {
 }
 li a:hover,
 li a:focus {
-  background: #1ABC9C;
-  color: #fff;
+  background: #66FCF1;
+  color: black;
 }
 
 
 /* demo styles */
 body { margin-top: 3em; background: #eee; color: #555; font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
 p, p a { font-size: 12px;text-align: center; color: #888; }
+h2{
+    text-align: center;
+    color:black;
+}
