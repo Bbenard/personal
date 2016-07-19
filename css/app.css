@@ -1,10 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
 html, body {
 	height:100%;
+     background-image: url(/images/water.jpg);
 }
 body {
 	width: 100%;
-	background: white;
+    background-image: url(/images/water.jpg);
+    background-size: cover;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
@@ -16,8 +18,8 @@ body {
     margin-left:20px; 
 }
 #header h1{
-	font-size: 20px;
-	font-weight: 400;
+	font-size: 15px;
+	font-weight: 100;
 	text-transform: uppercase;
 	color: rgba(255,255,255,0.9);
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
@@ -90,13 +92,14 @@ body {
 }
 .panel:target{
 	margin-left: 0%;
-	background-color:black;
+	//*background-color:black;*/
+ 
 }
 #home:target ~ #header #navigation #link-home,
 #portfolio:target ~ #header #navigation #link-portfolio,
 #about:target ~ #header #navigation #link-about,
 #contact:target ~ #header #navigation #link-contact{
-	background: #000;
+	background-color: black;
 	color: #fff;
 }
 #works {
@@ -118,9 +121,9 @@ body {
 	color: #000;
 }
 #form input, #form textarea{
-	background: #000;
-	color: #fff;
-	border: none;
+	background: black;
+	color: white;
+	border:1px solid black;
 }
 #form textarea{
 	width: 493px;
